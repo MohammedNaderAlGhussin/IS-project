@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components {
+  .algo-active {
+    @apply block text-[30px] py-2 px-3 rounded-[10px] cursor-pointer text-white bg-gradient-to-r from-[#7981E6] to-[#5194FF];
+  }
+  .algo {
+    @apply block text-[30px] py-2 px-3 rounded-[10px] cursor-pointer text-mainColor bg-white;
+  }
+  .section {
+    @apply ;
+  }
+  .text {
+    @apply block text-[30px] text-mainColor pl-4;
+  }
+} */

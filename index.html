@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Tailwind Css File -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- Font Awseome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body class="bg-contentColor">
+    <!-- Start Header -->
+    <header class="border-b-2 border-[#24292F] w-full py-[15px]">
+      <div
+        class="container px-4 xl:max-w-[1200px] mx-auto flex flex-row justify-between items-center"
+      >
+        <div class="text-mainColor font-bold text-[30px]">Cipher Text</div>
+        <div class="flex flex-row gap-3">
+          <a href="" class="text-white">
+            <i class="fa-brands fa-twitter text-2xl"></i>
+          </a>
+          <a href="" class="text-white">
+            <i class="fa-brands fa-github text-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Contenet -->
+    <div class="container px-4 xl:max-w-[1200px] mx-auto mt-8 flex flex-col">
+      <p class="text-white text-center text-[18px] mb-6 pl-4">
+        A Method in which each letter in the plaintext is replaced by a letter
+        some fixed number of positions down the alphabet. The method is named
+        after Julius Caeser, who used it in his private correspondence.
+      </p>
+      <div class="flex flex-row justify-start gap-3">
+        <span
+          class="block text-[28px] p-2 rounded-[10px] text-white cursor-pointer bg-gradient-to-r from-[#7981E6] to-[#5194FF]"
+          >Alogrithim 1</span
+        >
+        <span
+          class="block text-[30px] py-2 px-3 rounded-[10px] cursor-pointer text-mainColor bg-white"
+          >Alogrithim 2</span
+        >
+      </div>
+      <section
+        class="relative before:content-[''] before:absolute before:h-[1px] before:w-full before:bg-[#575757] before:top-[75px] before:left-0 after:content-[''] after:absolute after:w-[1px] after:h-[72%] after:bg-[#575757] after:bottom-[6px] after:left-1/2 bg-[#24292F] mt-6 rounded-[10px] flex flex-col shadow-box py-[10px] px-[30px]"
+      >
+        <div class="flex items-center justify-around relative">
+          <span class="block text-[30px] text-mainColor pl-4">PlainText</span>
+          <span class="block text-[30px] text-mainColor pl-4 text-start">
+            <i
+              class="fa-sharp fa-solid fa-rotate text-white absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-[27px] cursor-pointer"
+            ></i>
+            CipherText
+          </span>
+        </div>
+        <div class="flex items-center gap-[110px] mt-8 relative">
+          <textarea
+            class="pl-4 bg-transparent focus:outline-none resize-none text-[#888888] min-w-[45%] min-h-[200px]"
+          ></textarea>
+          <textarea
+            class="pl-4 bg-transparent focus:outline-none resize-none text-[#888888] min-w-[45%] min-h-[200px]"
+          ></textarea>
+        </div>
+      </section>
+    </div>
+    <!-- End Contenet -->
+    <!-- Start Footer -->
+    <footer
+      class="w-full border-t-2 border-[#24292F] mt-[78px] gap-1 flex flex-col justify-end items-center"
+    >
+      <div class="flex flex-row gap-4 pt-1">
+        <a href="" class="text-white">
+          <i class="fa-brands fa-twitter text-2xl"></i>
+        </a>
+        <a href="" class="text-white">
+          <i class="fa-brands fa-github text-2xl"></i>
+        </a>
+      </div>
+      <p class="text-[#888888] text-[18px] font-[500] h-[30px]">
+        © 2022 Haytham Salama & Nader Al Ghussin, All rights reserved
+      </p>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
